@@ -63,3 +63,5 @@ php artisan config:cache
 ``
 並將.env刪掉，.env的變量儲存在config
 ``
+## env 設置可以看env.example
+## 請將app_Debug設置為false，生產模式下不能有任何debug tool 存在
