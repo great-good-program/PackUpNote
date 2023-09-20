@@ -55,3 +55,11 @@ ex:8.1版本
  根目錄執行:php artisan storage:link
 ```
 請確認php環境變量版本正確
+
+## 安全指南:
+```
+php artisan config:cache
+```
+``
+並將.env刪掉，.env的變量儲存在config
+``
